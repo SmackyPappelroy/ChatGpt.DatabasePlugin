@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Databas sök",
+  "name_for_model": "databasequery",
+  "description_for_human": "Sök genom SQL-tabell och analysera",
+  "description_for_model": "Plugin to search through and analyze data in SQL logging table",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5290/swagger/v1/swagger.json",
+    "is_user_authenticated": "false"
+  },
+  "logo_url": "http://localhost:5290/logo.png",
+  "contact_email": "noreply@microsoft.com",
+  "legal_info_url": "https://www.microsoft.com/en-us/legal/"
+}
